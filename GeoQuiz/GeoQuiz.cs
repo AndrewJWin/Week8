@@ -8,6 +8,14 @@ using System.Text;
 using System.Timers;
 using System.Windows.Forms;
 
+/**********************************\
+*                                  *
+* Andrew Terwilliger 4/2/2020      *
+* Minneapolis College              *
+* ITEC 2505-60 C# Programming      *
+*                                  *
+\**********************************/
+
 namespace GeoQuiz
 {
     public partial class FormQuiz : Form

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC158EC1-EA7A-4D3A-8021-04A4FF4147F5}</ProjectGuid>
+    <ProjectGuid>{E3677CBE-466F-40FE-9F02-9BC4AD4E4132}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SnowShovel</RootNamespace>
-    <AssemblyName>SnowShovel</AssemblyName>
+    <RootNamespace>PayApp</RootNamespace>
+    <AssemblyName>PayApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,25 +47,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormEstimator.cs">
+    <Compile Include="CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormEstimator.Designer.cs">
-      <DependentUpon>FormEstimator.cs</DependentUpon>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSpecialRequests.cs">
+    <Compile Include="PaymentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSpecialRequests.Designer.cs">
-      <DependentUpon>FormSpecialRequests.cs</DependentUpon>
+    <Compile Include="PaymentForm.Designer.cs">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormEstimator.resx">
-      <DependentUpon>FormEstimator.cs</DependentUpon>
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSpecialRequests.resx">
-      <DependentUpon>FormSpecialRequests.cs</DependentUpon>
+    <EmbeddedResource Include="PaymentForm.resx">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

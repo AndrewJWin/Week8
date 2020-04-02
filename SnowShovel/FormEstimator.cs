@@ -8,11 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/**********************************\
+*                                  *
+* Andrew Terwilliger 4/2/2020      *
+* Minneapolis College              *
+* ITEC 2505-60 C# Programming      *
+*                                  *
+\**********************************/
+
 namespace SnowShovel
 {
-    public partial class Form1 : Form
+    public partial class FormEstimater : Form
     {
-        public Form1()
+        public FormEstimater()
         {
             InitializeComponent();
         }

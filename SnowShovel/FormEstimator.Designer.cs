@@ -1,6 +1,6 @@
 ﻿namespace SnowShovel
 {
-    partial class Form1
+    partial class FormEstimater
     {
         /// <summary>
         /// Required designer variable.
@@ -184,7 +184,7 @@
             this.btnAddRequest.UseVisualStyleBackColor = true;
             this.btnAddRequest.Click += new System.EventHandler(this.btnAddRequest_Click);
             // 
-            // Form1
+            // FormEstimater
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -201,7 +201,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txbName);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "FormEstimater";
             this.Text = "Snow Shovel Estimate";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
